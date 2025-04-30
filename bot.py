@@ -20,8 +20,6 @@ predictions = [
     "Ждите приятного сюрприза"
 ]
 
-# Обработчик команды /start (новый синтаксис для aiogram 3.x)
-
 
 @dp.message(Command("start"))
 async def send_welcome(message: types.Message):
